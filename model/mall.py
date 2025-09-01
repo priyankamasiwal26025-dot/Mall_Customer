@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # 1. Load dataset
-df = pd.read_csv("Mall_Customers.csv")
+df = pd.read_csv("data/Mall_Customers.csv")
 
 # 2. Select features: Annual Income and Spending Score
 X = df[["Annual Income (k$)", "Spending Score (1-100)"]]
