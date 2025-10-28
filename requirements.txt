@@ -2,4 +2,5 @@ pandas
 joblib
 scikit-learn
 flask
-matplotlib
+numpy
+gunicorn
